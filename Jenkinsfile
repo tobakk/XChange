@@ -25,7 +25,8 @@ pipeline {
                 jdk 'JDK-14'
             }
             steps {
-                sh 'mvn deploy'
+                //skip for now
+//                sh 'mvn deploy'
             }
         }
     }
