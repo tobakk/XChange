@@ -24,10 +24,10 @@ pipeline {
             tools {
                 jdk 'JDK-14'
             }
-            steps {
-                //skip for now
-//                sh 'mvn deploy'
-            }
+//            steps {
+//                //skip for now
+////                sh 'mvn deploy'
+//            }
         }
     }
 }
